@@ -62,7 +62,7 @@ class _SubmitNameState extends State<SubmitName> {
                   ),
                   TextField(
                     controller: nameController,
-                    keyboardType: TextInputType.phone,
+                    // keyboardType: TextInputType.phone,
                     decoration: InputDecoration(
                       hintStyle: TextStyle(color: Colors.grey),
                       hintText: "Enter Name",
